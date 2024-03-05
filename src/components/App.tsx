@@ -1,11 +1,11 @@
-import Avatar from 'components/Avatar'
-import logo from 'assets/logo.svg'
+import Avatar from 'components/Avatar';
+import logo from 'assets/logo.svg';
 
 const randoms = [
   [1, 2],
   [3, 4, 5],
   [6, 7]
-]
+];
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
               Welcome!
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              This is a boilerplate build with Vite, React 18, TypeScript,
+              This is an accelerator built with Vite, React 18, TypeScript,
               Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
             </p>
           </div>
@@ -65,7 +65,7 @@ function App() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
