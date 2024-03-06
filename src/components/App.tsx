@@ -1,12 +1,13 @@
+import { RouterProvider } from 'react-router-dom';
+import { router } from '../router/router';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../styles/theme';
 import 'tailwindcss/tailwind.css';
-import Landing from 'components/Landing/landing';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Landing />
+      <RouterProvider router={router} />
     </ThemeProvider>
   );
 }
